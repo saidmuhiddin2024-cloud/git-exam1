@@ -154,3 +154,34 @@ body {
     border-radius: 20px; 
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
+.who{
+    text-align: center;
+}
+.you{
+    color:#5B6574;
+    text-align: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  text-align: center;
+  color: #555;
+}
+
+.card img {
+  width: 200px; 
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.card.active p {
+  color: #4CAF50;
+  font-weight: bold;
+}
