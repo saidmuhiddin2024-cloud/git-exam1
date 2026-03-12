@@ -286,8 +286,88 @@ body {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+ 
     width: fit-content; 
     align-self: flex-start;
 }
 
+.ur-hero-section {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333e48;
+    margin-left: 130px;
+}
+
+.ur-main-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: #333e48;
+}
+
+.ur-sub-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333e48;
+}
+
+.ur-description {
+    font-size: 18px;
+    color: #5f6d7a;
+    margin-bottom: 25px;
+}
+
+
+.ur-chips-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.ur-chip {
+    background-color: #eef4ff;
+    color: #5f6d7a;
+    padding: 10px 24px;
+    border-radius: 50px; 
+    font-size: 16px;
+    display: inline-block;
+    
+    cursor: default;
+}
+
+
+.ur-chip:hover {
+    background-color: #e0eaff;
+}
+.ur-app { display: flex; font-family: sans-serif; min-height: 100vh;  width: 1000px; margin-left: 100px;}
+.ur-side { width: 240px; background: #2c2e3a; color: #fff; padding: 20px; display: flex; flex-direction: column; }
+.ur-main { flex: 1; padding: 40px; background: #fff; }
+
+
+.ur-logo { font-size: 20px; margin-bottom: 30px; }
+.ur-item { padding: 12px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; color: #a0a4b0; }
+.ur-item.active { background: #fff; color: #000; }
+.ur-b { margin-left: auto; font-size: 10px; background: #eee; padding: 2px 5px; border-radius: 4px; color: #000; }
+.ur-user-zone { margin-top: auto; }
+.ur-notif, .ur-prof { background: rgba(255,255,255,0.05); padding: 10px; border-radius: 10px; margin-top: 10px; font-size: 13px; }
+.ur-cnt { background: #56b88b; padding: 1px 6px; border-radius: 10px; font-size: 10px; }
+
+
+.ur-head { display: flex; justify-content: space-between; margin-bottom: 40px; }
+.ur-pill { background: #2c2e3a; color: #fff; padding: 8px 15px; border-radius: 20px; align-self: center; font-size: 13px; }
+.ur-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+
+.ur-card { padding: 25px; border-radius: 20px; display: flex; flex-direction: column; }
+.b-blue { background: #eef2ff; } .b-org { background: #fff2e6; } .b-grn { background: #effcf6; }
+.ur-card i { font-size: 24px; margin-bottom: 15px; }
+.ur-card h3 { margin: 0 0 10px 0; font-size: 17px; }
+.ur-card p { font-size: 13px; color: #666; flex: 1; margin-bottom: 20px; }
+
+
+button { border: none; padding: 12px; border-radius: 25px; cursor: pointer; font-weight: bold; width: 100%; }
+.ur-btn-g { background: #56b88b; color: #fff; }
+.ur-btn-d { background: #2c2e3a; color: #fff; }
