@@ -371,3 +371,115 @@ body {
 button { border: none; padding: 12px; border-radius: 25px; cursor: pointer; font-weight: bold; width: 100%; }
 .ur-btn-g { background: #56b88b; color: #fff; }
 .ur-btn-d { background: #2c2e3a; color: #fff; }
+.elegib{
+    text-align: center;
+}
+.clac{
+    color: #5B6574;
+}
+.buttak{
+  width: 170px;
+  height: 20px;
+  margin-left: 550px;
+   
+}
+.ur-testimonial-section {
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ur-section-title {
+    font-size: 32px;
+    color: #333e48;
+    margin-bottom: 30px;
+}
+
+.ur-testimonial-card {
+    display: flex;
+    background-color: #fff2e6; 
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.ur-profile-sidebar {
+    flex: 0 0 200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.ur-avatar-container {
+    margin-bottom: 15px;
+}
+
+.ur-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.ur-profile-name {
+    font-size: 18px;
+    color: #333e48;
+    margin-bottom: 15px;
+}
+
+.ur-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.ur-tag {
+    background-color: #eef4ff;
+    color: #5f6d7a;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+
+.ur-testimonial-content {
+    padding-left: 40px;
+    flex: 1;
+    position: relative;
+}
+
+.ur-text-highlight {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333e48;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.ur-text-body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #5f6d7a;
+}
+
+
+.ur-quote-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    opacity: 0.1;
+    background-image: radial-gradient(circle, #ffb88c 20%, transparent 20%),
+                      radial-gradient(circle, #ffb88c 20%, transparent 20%);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
